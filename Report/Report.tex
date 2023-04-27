@@ -1,0 +1,112 @@
+\documentclass[11pt, oneside, a4paper]{article}
+
+\usepackage{pdfpages}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[font={footnotesize,it}]{caption}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{apacite}
+\usepackage{array}
+\usepackage{xparse}
+\usepackage{colortbl}
+\usepackage{fancyhdr}
+\usepackage[hmargin=0.8in,vmargin=1in]{geometry}
+
+\newfontfamily\headingfont{Titillium Web SemiBold}
+\newfontfamily\subheadingfont{Titillium Web}
+\newfontfamily\authorfont{Roboto Slab}
+
+\titleformat{\section}{\headingfont{}\LARGE\color{cyan}}{\thesection}{1em}{}
+\titleformat{\subsection}{\subheadingfont{}\Large}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\subheadingfont{}\large\itshape}{\thesubsubsection}{1em}{}
+
+\setmainfont{Cambria}
+
+\graphicspath{{./Figures/}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{Structured Sentiment Analysis}
+\fancyfoot[C]{\thepage}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{5cm}
+ 
+        {\LARGE\headingfont{Structured Sentiment Analysis}}
+
+        \vspace{2cm}
+        {\authorfont{CSI4900 Honours Project}
+        
+        
+        \vspace{0.5cm}
+        Winter 2023
+
+
+        \vspace{6cm}
+
+        \begin{tabular}{rl}
+            Bowen Zeng & 300115382  \\
+        \end{tabular}
+ 
+        \vfill
+             
+        Supervisor: Dr. Diana Inkpen\\
+        
+        \vspace{1.5cm}
+        April 24th, 2023
+
+        \vspace{1cm}
+        University of Ottawa
+
+        \vspace{0.8cm}
+      
+        \includegraphics[width=0.2\textwidth]{uOttawa.png}
+             
+
+        \date{}
+        }
+    \end{center}
+ \end{titlepage}
+
+\input{Section0.tex}
+
+{\hypersetup{hidelinks}
+    %\tableofcontents
+    %\newpage
+    %\listoffigures
+    %\newpage
+    %\listoftables
+    %\newpage
+}
+
+    \hypersetup{
+        linkcolor = blue,
+        bookmarksnumbered=true
+    }
+
+    \input{Section1.tex}
+    \input{Section2.tex}
+    \input{Section3.tex}
+    \input{Section4.tex}
+    \input{Section5.tex}
+    \newpage
+
+    \appendix
+
+    \bibliographystyle{apacite} % We choose the "plain" reference style
+    \bibliography{references}
+
+
+\end{document}

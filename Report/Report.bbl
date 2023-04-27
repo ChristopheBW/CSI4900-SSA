@@ -1,0 +1,110 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Barnes%
+\ \protect \BOthers {.}}{%
+Barnes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+barnes-etal-2022-semeval}
+\APACinsertmetastar {%
+barnes-etal-2022-semeval}%
+\begin{APACrefauthors}%
+Barnes, J.%
+, Oberlaender, L.%
+, Troiano, E.%
+, Kutuzov, A.%
+, Buchmann, J.%
+, Agerri, R.%
+\BDBL {}Velldal, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{S}em{E}val 2022 Task 10: Structured Sentiment Analysis}
+  {{S}em{E}val 2022 task 10: Structured sentiment analysis}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 16th International Workshop on
+  Semantic Evaluation (SemEval-2022)} {Proceedings of the 16th international
+  workshop on semantic evaluation (semeval-2022)}\ (\BPGS\ 1280--1295).
+\newblock
+\APACaddressPublisher{Seattle, United States}{Association for Computational
+  Linguistics}.
+\newblock
+\begin{APACrefURL} \url{https://aclanthology.org/2022.semeval-1.180}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.18653/v1/2022.semeval-1.180} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Po{\'s}wiata%
+}{%
+Po{\'s}wiata%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+poswiata-2022-opi}
+\APACinsertmetastar {%
+poswiata-2022-opi}%
+\begin{APACrefauthors}%
+Po{\'s}wiata, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{OPI} at {S}em{E}val-2022 Task 10: Transformer-based
+  Sequence Tagging with Relation Classification for Structured Sentiment
+  Analysis} {{OPI} at {S}em{E}val-2022 task 10: Transformer-based sequence
+  tagging with relation classification for structured sentiment
+  analysis}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 16th International Workshop on
+  Semantic Evaluation (SemEval-2022)} {Proceedings of the 16th international
+  workshop on semantic evaluation (semeval-2022)}\ (\BPGS\ 1366--1372).
+\newblock
+\APACaddressPublisher{Seattle, United States}{Association for Computational
+  Linguistics}.
+\newblock
+\begin{APACrefURL} \url{https://aclanthology.org/2022.semeval-1.190}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.18653/v1/2022.semeval-1.190} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tian%
+\ \protect \BOthers {.}}{%
+Tian%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+DBLP:journals/corr/abs-2005-05635}
+\APACinsertmetastar {%
+DBLP:journals/corr/abs-2005-05635}%
+\begin{APACrefauthors}%
+Tian, H.%
+, Gao, C.%
+, Xiao, X.%
+, Liu, H.%
+, He, B.%
+, Wu, H.%
+\BDBL {}Wu, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{SKEP:} Sentiment Knowledge Enhanced Pre-training for
+  Sentiment Analysis} {{SKEP:} sentiment knowledge enhanced pre-training for
+  sentiment analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2005.05635}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2005.05635} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
